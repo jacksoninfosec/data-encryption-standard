@@ -61,7 +61,6 @@ def S(i, x):
 
 
 #------------------------------
-
 # Reorder the lists
 
 
@@ -70,6 +69,4 @@ def print_lists_in_natural_order():
 		print([a[index(i)] for i in range(64)])
 		print()
 
-#print_lists_in_natural_order()
-
-print([s5[index(i)] for i in range(64)])
+print_lists_in_natural_order()
