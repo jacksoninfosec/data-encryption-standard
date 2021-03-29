@@ -32,11 +32,13 @@ PC2 = [14, 17, 11, 24, 1, 5, 3, 28,
        34, 53, 46, 42, 50, 36, 29, 32]
 
 
-# Rotate Halves Left by 1
+# B56 to B56
+# Rotate 28-bit Halves Left by 1
 RHL1 = list(range(2, 29)) + [1] + list(range(30, 57)) + [29]
 
 
-# Rotate Halves Left by 2
+# B56 to B56
+# Rotate 28-bit Halves Left by 2
 RHL2 = list(range(3, 29)) + [1, 2] + list(range(31, 57)) + [29, 30]
 
 
