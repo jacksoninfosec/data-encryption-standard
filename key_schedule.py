@@ -1,4 +1,4 @@
-# The Key Scedule Algoritm for DES
+# The Key Scedule Algorithm for DES
 
 # n is the number of bits
 # P is a list of integers of length m
