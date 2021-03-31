@@ -59,14 +59,3 @@ s = [s1, s2, s3, s4, s5, s6, s7, s8]
 def S(i, x):
 	return s[i - 1][index(x)]
 
-
-#------------------------------
-# Reorder the lists
-
-
-def print_lists_in_natural_order():
-	for a in s:
-		print([a[index(i)] for i in range(64)])
-		print()
-
-print_lists_in_natural_order()
