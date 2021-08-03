@@ -59,3 +59,9 @@ s = [s1, s2, s3, s4, s5, s6, s7, s8]
 def S(i, x):
 	return s[i - 1][index(x)]
 
+
+# This function prints the S-Boxes as direct look-up lists.
+def print_sbox_direct_lookup_lists():
+      for a in s:
+            print([a[index(i)] for i in range(64)])
+            print()
