@@ -2,6 +2,7 @@
 
 from des_pbox import *
 from des_sbox import S
+from des_key_schedule import key_schedule
 
 
 # The Feistel function of DES
