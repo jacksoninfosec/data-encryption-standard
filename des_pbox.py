@@ -1,4 +1,4 @@
-# The P-Boxes of DES
+# Implementation of the P-Boxes of DES
 
 # This is general code to implement any P-Box
 # n is the number of input bits
