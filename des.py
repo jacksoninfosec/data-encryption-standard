@@ -1,8 +1,8 @@
 # The Data Encryption Standard (DES)
 
 from des_pbox import *
-from des_sbox import S
-from des_key_schedule import key_schedule
+from des_sbox import *
+from des_key_schedule import *
 
 
 # The Feistel function of DES
